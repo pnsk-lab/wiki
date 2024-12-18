@@ -1,7 +1,7 @@
 # evorax
 
 evorax は、インターネットユーザーである。
-[Amex](./amex.md) と [Evex](./Evex_Developers] を共同で設立した。
+[Amex](./amex.md) と [Evex](./Evex_Developers.md) を共同で設立した。
 
 ## 外部リンク
 
