@@ -1,0 +1,31 @@
+{
+  "tasks": {
+    "dev": "BASE=/ DEV=true deno serve -RE --watch core/app.tsx",
+    "build": "deno run -RWE core/build.ts && deno run -A npm:pagefind --site dist",
+    "preview": "deno run -A jsr:@std/http/file-server dist"
+  },
+  "fmt": {
+    "semiColons": false,
+    "singleQuote": true
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx"
+  },
+  "nodeModulesDir": "auto",
+  "imports": {
+    "@ns/hono-file-watcher": "jsr:@ns/hono-file-watcher@^0.1.1",
+    "@std/fs": "jsr:@std/fs@^1.0.6",
+    "@std/path": "jsr:@std/path@^1.0.8",
+    "@types/markdown-it": "npm:@types/markdown-it@^14.1.2",
+    "@unocss/core": "npm:@unocss/core@^0.65.1",
+    "@unocss/preset-uno": "npm:@unocss/preset-uno@^0.65.1",
+    "@unocss/reset": "npm:@unocss/reset@^0.65.1",
+    "footnote": "npm:footnote@^1.1.0",
+    "github-markdown-css": "npm:github-markdown-css@^5.8.1",
+    "hono": "npm:hono@^4.6.14",
+    "markdown-it": "npm:markdown-it@^14.1.0",
+    "markdown-it-footnote": "npm:markdown-it-footnote@^4.0.0",
+    "markdown-it-github-alerts": "npm:markdown-it-github-alerts@^0.3.0"
+  }
+}
