@@ -100,6 +100,9 @@ app.get(
             }}
           />
         </main>
+        <div class="text-right p-2">
+          <a target='_blank' rel='noopener noreferrer' href={`https://github.com/pnsk-lab/wiki/edit/main/wiki/${name}.md`} class="text-pink-400 hover:text-pink-500">📝このページの編集を GitHub で提案</a>
+        </div>
       </div>,
     )
   },
