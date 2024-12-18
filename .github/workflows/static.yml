@@ -28,7 +28,7 @@ jobs:
       - name: Setup Deno
         uses: denoland/setup-deno@v2.0.0
       - name: Build
-        run: deno task build
+        run: BASE=/wiki/ deno task build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
