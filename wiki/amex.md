@@ -4,6 +4,11 @@ person:
     x: amex2189
     github: EdamAme-x
 ---
+<figure align="right">
+  <img src="https://avatars.githubusercontent.com/u/121654029?v=4" alt="Amex の現在のアイコン" align="right" width="128" />
+  <figcaption>Amex の現在のアイコン</figcaption>
+</figure>
+
 # Amex
 
 Amex、または EdamAme-X は、インターネットユーザーである。
