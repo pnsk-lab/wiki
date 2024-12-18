@@ -20,7 +20,7 @@ export const layout = (): MiddlewareHandler => async (c, next) => {
       markdownCSS,
       style.css,
       resetCSS,
-      `@media(prefers-color-scheme: dark){body{background:#0d1117;color:white;}}`,
+      `@media(prefers-color-scheme: dark){body{background:#0d1117;color:white;--pagefind-ui-background:#0d1117;--pagefind-ui-text:white;}}`,
       `.markdown-body ul{list-style-type: disc;}\n.markdown-body ol{list-style-type: disc}`,
     ]
 

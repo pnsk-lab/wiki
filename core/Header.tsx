@@ -13,7 +13,7 @@ export const Header: FC = () => {
           Search
         </button>
       </header>
-      <dialog id='search-dialog' class='p-4'>
+      <dialog id='search-dialog' class='p-4 @dark:bg-[#0d1117] @dark:border @dark:border-white'>
         <div id='search-container'>
           <div id='search-modal'></div>
         </div>
