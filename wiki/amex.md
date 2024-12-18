@@ -5,7 +5,7 @@ person:
     github: EdamAme-x
 ---
 <figure align="right">
-  <img src="https://avatars.githubusercontent.com/u/121654029?v=4" alt="Amex の現在のアイコン" align="right" width="128" />
+  <img src="https://corsproxy.io/?url=https://avatars.githubusercontent.com/u/121654029" alt="Amex の現在のアイコン" align="right" width="128" />
   <figcaption>Amex の現在のアイコン</figcaption>
 </figure>
 
