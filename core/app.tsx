@@ -92,7 +92,7 @@ app.get(
     return c.render(
       <div class='min-h-dvh'>
         <Header />
-        <main class=''>
+        <main data-pagefind-body>
           <div
             class='markdown-body p-5'
             dangerouslySetInnerHTML={{
