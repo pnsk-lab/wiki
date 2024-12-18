@@ -4,6 +4,7 @@ import * as path from '@std/path'
 import { BASE_URL } from './env.ts'
 import footnote from 'markdown-it-footnote'
 import alerts from 'markdown-it-github-alerts'
+import parseMD from 'parse-md'
 
 const transformLink = (link: string): string => {
   if (link.startsWith('.')) {
@@ -41,5 +42,7 @@ const it = markdownIt({
   })
 
 export const render = (md: string) => {
-  return it.render(md)
+  const parsed = parseMD(md)
+  const { content } = parsed
+  return it.render(content)
 }

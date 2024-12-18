@@ -1,6 +1,6 @@
 import type { FC } from 'hono/jsx'
 import { BASE_URL } from './lib/env.ts'
-import { html, raw } from 'hono/html'
+import { raw } from 'hono/html'
 
 export const Header: FC = () => {
   return (

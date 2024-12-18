@@ -16,7 +16,8 @@
     "npm:markdown-it-footnote@4": "4.0.0",
     "npm:markdown-it-github-alerts@0.3": "0.3.0_markdown-it@14.1.0",
     "npm:markdown-it@^14.1.0": "14.1.0",
-    "npm:pagefind@*": "1.2.0"
+    "npm:pagefind@*": "1.2.0",
+    "npm:parse-md@^3.0.3": "3.0.3"
   },
   "jsr": {
     "@ns/hono-file-watcher@0.1.1": {
@@ -129,6 +130,12 @@
     "hono@4.6.14": {
       "integrity": "sha512-j4VkyUp2xazGJ8eCCLN1Vm/bxdvm/j5ZuU9AIjLu9vapn2M44p9L3Ktr9Vnb2RN2QtcR/wVjZVMlT5k7GJQgPw=="
     },
+    "js-yaml@4.1.0": {
+      "integrity": "sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==",
+      "dependencies": [
+        "argparse"
+      ]
+    },
     "linkify-it@5.0.0": {
       "integrity": "sha512-5aHCbzQRADcdP+ATqnDuhhJ/MRIqDkZX5pyjFHRRysS8vZ5AbqGEoFIb6pYHPZ+L/OC2Lc+xT8uHVVR5CAK/wQ==",
       "dependencies": [
@@ -174,6 +181,12 @@
         "@pagefind/windows-x64"
       ]
     },
+    "parse-md@3.0.3": {
+      "integrity": "sha512-2kpNrrW1GBgli5VT9X9/Y6n4PVsIFVdG49tguq1PHwzsRSK0Cu0yJPTUFOwWouFT85atYNWQ1T/rmqfj7kLd8g==",
+      "dependencies": [
+        "js-yaml"
+      ]
+    },
     "punycode.js@2.3.1": {
       "integrity": "sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA=="
     },
@@ -198,7 +211,8 @@
       "npm:hono@^4.6.14",
       "npm:markdown-it-footnote@4",
       "npm:markdown-it-github-alerts@0.3",
-      "npm:markdown-it@^14.1.0"
+      "npm:markdown-it@^14.1.0",
+      "npm:parse-md@^3.0.3"
     ]
   }
 }
