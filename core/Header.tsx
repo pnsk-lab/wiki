@@ -4,15 +4,15 @@ import { html, raw } from 'hono/html'
 
 export const Header: FC = () => {
   return (
-    <header>
-      <div class='sticky top-0 w-full flex items-center justify-between p-2'>
+    <>
+      <header class='sticky top-0 w-full flex items-center justify-between p-2'>
         <a class='font-bold text-xl' href={BASE_URL}>
           Wiki
         </a>
         <button class='underline hover:no-underline' id='search-button'>
           Search
         </button>
-      </div>
+      </header>
       <dialog id='search-dialog' class='p-4'>
         <div id='search-container'>
           <div id='search-modal'></div>
@@ -40,6 +40,6 @@ export const Header: FC = () => {
       }
     `}
       </script>
-    </header>
+    </>
   )
 }
