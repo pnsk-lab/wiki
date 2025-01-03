@@ -121,7 +121,7 @@ app.get('/sitemap.xml', async (c) => {
     <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
       {entries.map((entry) => (
         <url>
-          <loc>{BASE_ORIGIN_URL}wiki/{entry.name}</loc>
+          <loc>{BASE_ORIGIN_URL}wiki/{encodeURIComponent(entry.name)}</loc>
         </url>
       ))}
     </urlset>
