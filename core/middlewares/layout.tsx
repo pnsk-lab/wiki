@@ -36,6 +36,7 @@ export const layout = (): MiddlewareHandler => async (c, next) => {
           <link rel='stylesheet' href={BASE_URL + 'pagefind/pagefind-ui.css'} />
           <script src={BASE_URL + 'pagefind/pagefind-ui.js'} />
           <title>{c.var.title}</title>
+          <meta name="google-site-verification" content="jiH3-q734_lRJ8iABELR5RWIBXhAYmdUrFqNEZU60zc" />
         </head>
         <body>
           {content}
